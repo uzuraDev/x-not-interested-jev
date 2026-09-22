@@ -1,0 +1,32 @@
+{
+  "name": "x-not-interested-jev",
+  "version": "0.1.0",
+  "description": "X (Twitter) For You timeline helper that asks Jev before clicking Not interested",
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "test": "node --import tsx --test src/*.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "keywords": [
+    "x",
+    "twitter",
+    "jev",
+    "ai-gateway",
+    "playwright"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "ai": "^7.0.107",
+    "dotenv": "^17.2.2",
+    "playwright": "^1.55.0",
+    "tsx": "^4.20.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.18.0",
+    "typescript": "^5.9.2"
+  }
+}
